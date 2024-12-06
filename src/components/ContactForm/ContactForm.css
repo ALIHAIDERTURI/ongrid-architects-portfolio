@@ -1,0 +1,63 @@
+.contact-form {
+    width: 90%;
+}
+
+.contact-form input,
+textarea,
+button {
+    display: block;
+    margin: auto;
+    width: 75%;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    font-size: 1rem;
+    background-color: rgb(217, 217, 217);
+}
+.contact-form textarea {
+    padding-top: 10px;
+    height: 130px;
+}
+
+.contact-form button {
+    background-color: rgb(16, 16, 16);
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: rgb(102, 102, 102);
+    color: black;
+    font-size: 1rem;
+}
+
+.thankyou-msg {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    font-size: 3rem;
+}
+
+.thankyou-msg h2 {
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .contact-form input,
+    textarea,
+    button {
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        padding-left: 10px;
+    }
+}

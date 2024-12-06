@@ -1,0 +1,40 @@
+.footer-container {
+    margin: 30px auto 0;
+    width: 98%;
+    /* background-color: rgb(42, 42, 42); */
+    background-color: white;
+    border-radius: 10px;
+}
+
+.footer {
+    margin: auto;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.footer p {
+    padding-left: 10px;
+    text-align: left;
+    font-size: 0.75rem;
+    user-select: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+}
+
+@media (max-width: 768px) {
+    .footer p {
+        margin: auto;
+        width: 95%;
+        font-size: 0.7rem;
+    }
+    .footer {
+        margin: auto;
+        width: 100%;
+        height: 65px;
+        line-height: 20px;
+        padding: 5px;
+    }
+}

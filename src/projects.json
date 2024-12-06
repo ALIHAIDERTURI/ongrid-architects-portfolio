@@ -1,0 +1,387 @@
+[
+    {
+        "id": 0,
+        "title": "CAVALLINO BIANCO",
+        "desc": "The hotel created on these special characteristics of the place in its narrative structure. Approaching from the north-west, deep into the dense pine forest to create a magical place with an innovative tree house on dunes. The character of building changes over the course of the year in the various seasons in which there are depending on the season of different colors, seasonal crops and partly from the associated forest animals and birds. Visitors will be a part of the natural environment, which is already is characterized by its tree-like character.",
+        "year": 2019,
+        "location": "Caorle, Italy",
+        "client": "GRAFT Berlin",
+        "phase": "Competition",
+        "role": "Architect / Designer",
+        "programme": "Hospitality",
+        "images": [
+            "https://rihanbucket.s3.amazonaws.com/bianco/092_CAVALLINO_V4_P.jpg",
+            "https://rihanbucket.s3.amazonaws.com/bianco/092_CAVALLINO_V2_P_low.jpg",
+            "https://rihanbucket.s3.amazonaws.com/bianco/092_CAVALLINO_V1_P_low.jpg",
+            "https://rihanbucket.s3.amazonaws.com/bianco/092_CAVALLINO_V3_P.jpg",
+            "https://rihanbucket.s3.amazonaws.com/bianco/092_CAVALLINO_V5_P.jpg",
+            "https://rihanbucket.s3.amazonaws.com/bianco/EG+copy.jpg",
+            "https://rihanbucket.s3.amazonaws.com/bianco/GRAFT_CAVALLINO+BIANCO+FAMILY+SPA+BEACH+RESORT-38.jpg",
+            "https://rihanbucket.s3.amazonaws.com/bianco/GRAFT_CAVALLINO+BIANCO+FAMILY+SPA+BEACH+RESORT-51.jpg"
+        ]
+    },
+    {
+        "id": 1,
+        "title": "ATHORA - Green Oasis",
+        "desc": " The formally calm massing and facade of the new building on Thierschstrasse closes the edge of the block in a natural way and respects the character of the grown context of the urban quarter. The design condenses its creative ambitions as well as the visitor’s attention, above all in the particularly readable public spaces that lead the residents into the green interior of the quarter. The redesign of the ensemble at the intersection of Thirschstrasse and Liebherrstrasse and its connecting inner courtyard will create new residential format for the 21st century.",
+        "year": 2019,
+        "location": "Munich, Germany",
+        "client": "GRAFT Berlin",
+        "phase": "Competition",
+        "role": "Architect / Designer",
+        "programme": "Residential",
+        "images": [
+            "https://rihanbucket.s3.amazonaws.com/athora/ATHORA_MUNICH_V1.jpg",
+            "https://rihanbucket.s3.amazonaws.com/athora/190115_Athora+Boards_IFUP-1.jpg",
+            "https://rihanbucket.s3.amazonaws.com/athora/ATHORA_MUNICH_V3.jpg",
+            "https://rihanbucket.s3.amazonaws.com/athora/GRAFT_ATHORA_FloorPlans_EG_1-200.jpg",
+            "https://rihanbucket.s3.amazonaws.com/athora/GRAFT_ATHORA_FloorPlans_OG4_1-200.jpg",
+            "https://rihanbucket.s3.amazonaws.com/athora/GRAFT_ATHORA_Sonnenstrahlung+1.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Mercedes-Benz Canteen",
+        "desc": " The project located in the heart of the Untertürkheim plant for Daimler AG in Stuttgart, surrounded by production factories and the company’s headquarter. Due to the unattractive surroundings on the three sides of the plot, the new canteen building designed to face a neighboring newly developed building with a slightly asymmetrical recessed glass façade, to form a communicative dialogue with building 137, creating a central meeting space as an urban square. At the same time, it‘s also a welcoming gesture for the main entrance. A structural element star-like shape, holding and wrapping the building together, and adding to its spatial qualities. The ground floor on all sides is recessed to the inside, to create a spatial expansion for the very narrow surrounding streets.",
+        "year": 2017,
+        "location": "Stuttgart, Germany",
+        "client": "RKW + Düsseldorf",
+        "phase": "Competition",
+        "role": "Designer / Team lead",
+        "programme": "Hospitality",
+        "images": [
+            "https://rihanbucket.s3.amazonaws.com/benz/Nightpres.jpg",
+            "https://rihanbucket.s3.amazonaws.com/benz/170511_Abgabe_A1_Daimler-1.jpg",
+            "https://rihanbucket.s3.amazonaws.com/benz/interior01.jpg",
+            "https://rihanbucket.s3.amazonaws.com/benz/Daimler-floorplan2.jpg",
+            "https://rihanbucket.s3.amazonaws.com/benz/OG01.jpg",
+            "https://rihanbucket.s3.amazonaws.com/benz/Daimler-floorplan.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "RKW+ Office ",
+        "desc": " A Home-inspired office building for the new RKW Düsseldorf headquarters. The expanding RKW family needed a new house, for a growing team, which now includes 300 staff members, everything that the home requires a living room, a dining room, sofas for the whole house to sit together. This was also a chance to capture how they work and function as an office, then tailor-make new spaces that would boost the working methods and output efficient spaces that enhance the collaborative ways and more communication.",
+        "year": 2017,
+        "location": "Düsseldorf, Germany",
+        "client": "RKW Architekture +",
+        "phase": "Concept",
+        "role": "Designer",
+        "programme": "Office",
+        "images": [
+            "https://rihanbucket.s3.amazonaws.com/rkw/nigh4.jpg",
+            "https://rihanbucket.s3.amazonaws.com/rkw/Difusse02.jpg",
+            "https://rihanbucket.s3.amazonaws.com/rkw/lageplan.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "KAP HORN TOWER",
+        "desc": "The overall objective of the present design is to create an extraordinary and novel fusion of future urban density at Cape Horn Tower with the small scale and accessibility that characterizes the entire area of the W8 today. Kiel itself will become the model for a continuous open and public space extending from the south adjacent green areas as a topographical landscape through the entire competition area, also pulls the open foyer and meeting rooms of the hotel and the innovative office areas and penetrates its vertical graduation to the beacon of the roof top bar.",
+        "year": 2018,
+        "location": "Kiel, Germany",
+        "client": "GRAFT Berlin",
+        "phase": "Competition",
+        "role": "Architect / Designer",
+        "programme": "Mixed use",
+        "images": [
+            "https://rihanbucket.s3.amazonaws.com/kaphorn/kiel+tower+render2.jpg",
+            "https://rihanbucket.s3.amazonaws.com/kaphorn/181106_Siteplan+Main+cropped2.jpg",
+            "https://rihanbucket.s3.amazonaws.com/kaphorn/kiel+tower+render.jpg",
+            "https://rihanbucket.s3.amazonaws.com/kaphorn/diagram-kaphorn.jpg",
+            "https://rihanbucket.s3.amazonaws.com/kaphorn/181120_Finalpresentation_Graft-32.jpg",
+            "https://rihanbucket.s3.amazonaws.com/kaphorn/181120_Finalpresentation_Graft-37.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "FOLDED CORALS",
+        "desc": "Coral reefs a digital fabrication experiment, focusing on the biomimicry of a natural system and applying it to a digital design process. The intricate cells are digitally manipulated to create a Chair inspired by nature. Hundreds of cardboard folded units are being assembled closely to form a stable structural element.",
+        "year": 2014,
+        "location": "-",
+        "client": "DIA DESSAU INSITUTE OF ARCHITECTURE",
+        "phase": "Concept",
+        "role": "Designer",
+        "programme": "Digital",
+        "images": [
+            "https://rihanbucket.s3.amazonaws.com/corals/MAIN.jpg",
+            "https://rihanbucket.s3.amazonaws.com/corals/PROCESS.jpg",
+            "https://rihanbucket.s3.amazonaws.com/corals/pres1.jpg",
+            "https://rihanbucket.s3.amazonaws.com/corals/PLANS.jpg",
+            "https://rihanbucket.s3.amazonaws.com/corals/INSPIRATIONS.jpg",
+            "https://rihanbucket.s3.amazonaws.com/corals/fabrication.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "MX3D Printed Bridge",
+        "desc": "MX3D research is aiming to 3D print a fully functional pedestrian steel bridge in the heart of Amsterdam to showcase the revolutionary technology of robotic 3D printing. The research equips industrial multi-axis robots with 3D tools and develops the software to control them. This technique allows to 3D print strong, complex and gracious structures from small parts to large bridges.The Design process inspired by nature complex systems, where in nature shape is cheap, and the material is expensive. Topology optimization technique is used to generate the bridge geometry with optimum structural strength and minimum amount of material resulting in an intricate lightweight structure.",
+        "year": 2014,
+        "location": "Amsterdam, Netherlands",
+        "client": "JORISLAARMAN Lab",
+        "phase": "Concept",
+        "role": "Designer",
+        "programme": "Digital",
+        "images": [
+            "https://rihanbucket.s3.amazonaws.com/mx3d/3D-print-steel-bridge-in-Amsterdam-1500x630.jpg",
+            "https://rihanbucket.s3.amazonaws.com/mx3d/hello-robot-exhibition-design-technology-vitra-design-museum_exhibition_dezeen_2364_col_5-1.jpg",
+            "https://rihanbucket.s3.amazonaws.com/mx3d/ezgif.com-gif-maker.gif",
+            "https://rihanbucket.s3.amazonaws.com/mx3d/Elevation.jpg",
+            "https://rihanbucket.s3.amazonaws.com/mx3d/2ds2.jpg",
+            "https://rihanbucket.s3.amazonaws.com/mx3d/frame-1+kopie.jpg",
+            "https://rihanbucket.s3.amazonaws.com/mx3d/try03a.jpg",
+            "https://rihanbucket.s3.amazonaws.com/mx3d/TRY02.jpg"
+        ],
+        "videos": [
+            "https://player.vimeo.com/video/150070595?h=feea83458a",
+            "https://player.vimeo.com/video/150064586?h=77a1daefb0"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "CHEIL MEMORIAL MUSEUM",
+        "desc": "Visitors are introduced to the difficult situation of Korea through a timeline before, during and shortly after the war. The first room is very dark as a representation of the harsh conditions in the country at that time. Coming into the main hall, visitors notice that the material is changing gradually, the darkness of the past is more and more fading to bright, revealed through fixtures which tell the foundation story of the company. Towards the end of the room, the bright material outweighs the dark ones, symbolizing the recent achievements brought to the country by the company.",
+        "year": 2016,
+        "location": "DAEGU, SOUTH KOREA",
+        "client": "Cheil Germany - SAMSUNG Europe",
+        "phase": "Completed",
+        "role": "Designer",
+        "programme": "Exhibition",
+        "images": [
+            "https://rihanbucket.s3.amazonaws.com/cheil/CHEIL+MEMORIAL+CENTER_MAIN_a.jpg",
+            "https://rihanbucket.s3.amazonaws.com/cheil/CHEIL+MEMORIAL+CENTER_MAIN_CAM07.jpg",
+            "https://rihanbucket.s3.amazonaws.com/cheil/CHEIL+MEMORIAL+CENTER_MAIN_CAM08.jpg",
+            "https://rihanbucket.s3.amazonaws.com/cheil/CHEIL+MEMORIAL+CENTER_MAINa.jpg",
+            "https://rihanbucket.s3.amazonaws.com/cheil/CHEIL+MEMORIAL+CENTER_MAINfvf.jpg",
+            "https://rihanbucket.s3.amazonaws.com/cheil/2016-01-a.jpg",
+            "https://rihanbucket.s3.amazonaws.com/cheil/2016-01-b.jpg",
+            "https://rihanbucket.s3.amazonaws.com/cheil/Screenshot%2B2020-10-06%2Bat%2B09.35.02.jpg"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "EMERGING HABITAT",
+        "desc": "A Home-inspired office building for the new RKW Düsseldorf headquarters. The expanding RKW family needed a new house, for a growing team, which now includes 300 staff members, everything that the home requires a living room, a dining room, sofas for the whole house to sit together. This was also a chance to capture how they work and function as an office, then tailor-make new spaces that would boost the working methods and output efficient spaces that enhance the collaborative ways and more communication.",
+        "year": 2014,
+        "location": "KIRIBATI ISLANDS",
+        "client": "DIA DESSAU INSITUTE OF ARCHITECTURE",
+        "phase": "Concept",
+        "role": "Computional Designer",
+        "programme": "Digital",
+        "images": [
+            "https://rihanbucket.s3.amazonaws.com/emerginghabitat/b3.jpg",
+            "https://rihanbucket.s3.amazonaws.com/emerginghabitat/a22.jpg",
+            "https://rihanbucket.s3.amazonaws.com/emerginghabitat/UNITS2.jpg",
+            "https://rihanbucket.s3.amazonaws.com/emerginghabitat/SECTION02_1.jpg",
+            "https://rihanbucket.s3.amazonaws.com/emerginghabitat/DIAGRAM03edit.jpg",
+            "https://rihanbucket.s3.amazonaws.com/emerginghabitat/DIAGRAM03.jpg",
+            "https://rihanbucket.s3.amazonaws.com/emerginghabitat/A7s.jpg",
+            "https://rihanbucket.s3.amazonaws.com/emerginghabitat/IMG_0008.JPG",
+            "https://rihanbucket.s3.amazonaws.com/emerginghabitat/IMG_9992.jpg",
+            "https://rihanbucket.s3.amazonaws.com/emerginghabitat/3D+PRINTING01.jpg"
+        ],
+        "videos": [
+            "https://player.vimeo.com/video/84495095?h=c5bcf06ea6",
+            "https://player.vimeo.com/video/84061964?h=ca7930ea91",
+            "https://player.vimeo.com/video/84070903?h=dde0cf880d"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "VOLKSWAGEN B14 HAUS",
+        "desc": "The project located on the outskirts of the city of Braunschweig Germany, in Volkswagen Financial Campus. Two adjacent buildings connected together with a common ground floor which includes a Canteen for 600 seats and offices, while the seven-story building includes only Offices and meeting rooms, and the other 3 stories includes Seminars and Training rooms.",
+        "year": 2017,
+        "location": "Braunschweig, Germany",
+        "client": "RKW + Düsseldorf",
+        "phase": "Concept",
+        "role": "Architect / Designer",
+        "programme": "Office",
+        "images": [
+            "https://rihanbucket.s3.amazonaws.com/vw/Kam+1-Edit03.jpg",
+            "https://rihanbucket.s3.amazonaws.com/vw/Kam+2-Edit02.jpg",
+            "https://rihanbucket.s3.amazonaws.com/vw/E00.jpg",
+            "https://rihanbucket.s3.amazonaws.com/vw/Section02.jpg",
+            "https://rihanbucket.s3.amazonaws.com/vw/170829_Fassaden+Varianten.jpg"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "DEUTSCHER GARTEN / FLORIADE EXPO 2022",
+        "desc": "Following the theme of flora and in line with our general philosophy, landscape and building form a strong unity. This is most evident in the visitor’s experience landscape and building are perceived as a unity and merge smoothly into eachother. building onlypartlyclosed, foundation only partly, climatic unity, formal-aesthetic/design. In addition, the building and the landscape form a functional unity and work closely together in a symbiotic relationship.",
+        "year": 2021,
+        "location": "Amsterdam, Netherlands",
+        "client": "LAVA Berlin",
+        "phase": "Competition",
+        "role": "Architect / Designer",
+        "programme": "Exhibition",
+        "images": [
+            "https://rihanbucket.s3.amazonaws.com/floriade/Picture9.jpg",
+            "https://rihanbucket.s3.amazonaws.com/floriade/Picture1.jpg",
+            "https://rihanbucket.s3.amazonaws.com/floriade/Picture4.jpg",
+            "https://rihanbucket.s3.amazonaws.com/floriade/Picture16+copy.jpg",
+            "https://rihanbucket.s3.amazonaws.com/floriade/Picture7.jpg",
+            "https://rihanbucket.s3.amazonaws.com/floriade/Picture10.jpg",
+            "https://rihanbucket.s3.amazonaws.com/floriade/Picture13.jpg",
+            "https://rihanbucket.s3.amazonaws.com/floriade/Picture25.jpg"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "COURTHOUSE - COMPLEX",
+        "desc": "The courthouse designed to embody the meaning of transparency, through using semi-transparent glass, and carefully scaled massing. Its bold, modern vocabulary emphasizes openness both for users and passers-by. The building created under a cantilevered triangular shed, which acts as an element for the facade and also to provide enough shadows for the building users. The building contains three courtrooms on the ground floor, surrounding the spacious main entrance hall, and all of them have a direct connection to service rooms and individual entrances for all the different functions required by the building type",
+        "year": 2010,
+        "location": "Cairo, Egypt",
+        "client": "Ain-Shams University",
+        "phase": "Concept",
+        "role": "Architect / Designer",
+        "programme": "Civic",
+        "images": [
+            "https://rihanbucket.s3.amazonaws.com/courthouse/Main-view-nigh2.jpg",
+            "https://rihanbucket.s3.amazonaws.com/courthouse/PLAN03.jpg",
+            "https://rihanbucket.s3.amazonaws.com/courthouse/LAYOUT+2.jpg"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "IMMERSIVE",
+        "desc": "Many contemporary architects have already accepted the notion that architecture is affected by the user. They have paid attention to the acts of the users and they have witnessed how their design is modified by their activities. Meanwhile in this research it’s been introduced a different perspective on the design process, which is the user point of view (POV), where the architect/designer can telepresence in real time, to another place, where he can act on behalf of the user, through the use of the powerful technology of the virtual reality and gaming industry techniques. The research is presenting a working software prototype'IMMERSIVE', an interactive design platform providing the architect/designer with a new perspectives for the design object, which enrich how the designers perceiving the design problem while walking through the designed space in a fully immersive environment. It also provides a collaborative three-dimensional environment for design and review between architects and different experts from other disciplines, this collaborative virtual environment enhance the communication and encourages co-operation, overcoming the barriers of space and time constraints. Through the use of virtual reality designers can explore a different layers of building information, which makes the design process more intuitive. A shared world of virtual reality offers a more sophisticated, interactive stimulating and engaging environment for architects and professionals alike- to communicate. Therefore it’s a prototype that facilitates this kind of collaboration.",
+        "year": 2015,
+        "location": "-",
+        "client": "DIA DESSAU INSITUTE OF ARCHITECTURE",
+        "phase": "Concept",
+        "role": "Designer / Developer",
+        "programme": "Digital",
+        "images": [
+            "https://rihanbucket.s3.amazonaws.com/IMMERSIVE/general.jpg",
+            "https://rihanbucket.s3.amazonaws.com/IMMERSIVE/IMAC-IMMERSIVE-B.jpg",
+            "https://rihanbucket.s3.amazonaws.com/IMMERSIVE/immersive-diagram.jpg",
+            "https://rihanbucket.s3.amazonaws.com/IMMERSIVE/INTERFACE.jpg",
+            "https://rihanbucket.s3.amazonaws.com/IMMERSIVE/1.jpg",
+            "https://rihanbucket.s3.amazonaws.com/IMMERSIVE/3.jpg"
+        ],
+        "videos": ["https://player.vimeo.com/video/158826021?h=6a493a3198"]
+    },
+    {
+        "id": 13,
+        "title": "Face Scapes",
+        "desc": "Face Scapes is an innovative project that offers custom eye wear solutions through advanced 3D scanning technology. The project aims to revolutionize the traditional eye wear market by offering a personalized approach to designing glasses that fit the user's face perfectly. Using computer algorithms, Face Scapes 3D scans the user's face and generates a 3D model that is then used to design custom glasses tailored to the user's specific needs. This technology provides users with an unprecedented level of customization and comfort",
+        "year": 2013,
+        "location": "-",
+        "client": "DIA DESSAU INSITUTE OF ARCHITECTURE",
+        "phase": "Concept",
+        "role": "Designer / Developer",
+        "programme": "Digital",
+        "images": [
+            "https://rihanbucket.s3.amazonaws.com/FACE+SCAPE/dba-FACE-SCAPEdS-2.jpg",
+            "https://rihanbucket.s3.amazonaws.com/FACE+SCAPE/dba-FACE-SCAPESf-1.jpg",
+            "https://rihanbucket.s3.amazonaws.com/FACE+SCAPE/output_4vDbWH.gif",
+            "https://rihanbucket.s3.amazonaws.com/FACE+SCAPE/dba-FACE-SCAPES1.jpg"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "TAS Residential Complex",
+        "desc": "The concept for the construction sites XIII and XV attaches particular importance to the integration of the structures into the future quarter at the Hörnbecken. In the concept for the TAS, new residential and flexible creative industries are being created for the 21st century. The parcelling of the large block edges into smaller units introduces an identity-creating element that simultaneously offers clear assignments of entrance situations, movement spaces, colonnade aisles and meeting points. A new interpretation of classic materials is also being considered for the façade. Here new brick structures and new interpretations of classical configurations are woven into an architectural context of small building structures.",
+        "year": 2019,
+        "location": "Kiel, Germany",
+        "client": "GRAFT Berlin",
+        "phase": "Competition",
+        "role": "Architect / Designer ",
+        "programme": "Residential",
+        "images": [
+            "https://rihanbucket.s3.amazonaws.com/tas/tas01.jpg",
+            "https://rihanbucket.s3.amazonaws.com/tas/tas02.jpg",
+            "https://rihanbucket.s3.amazonaws.com/tas/tas03.jpg",
+            "https://rihanbucket.s3.amazonaws.com/tas/tas05.jpg"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "HYUNDAI EXHIBITION GUIDELINE",
+        "desc": "Creating the signature hyundai experience, on eye-level be approachable, people experience an inviting and welcoming atmosphere and communication ideas that they can relate to. Create a feeling of inclusiveness. Invite for testing, doing, and touching. Real embrace life experience Celebrate the joys of the people’s lives in Hyundai’s brand spaces. Embrace a real life moment. Create experiences That feel natural and authentic. Emotional connect people experience. Enhance communication across all channels and foster community building, ratings, and sharing. Encourage people to connect with each other, with the products and the brand and make them share their moments.",
+        "year": 2019,
+        "location": "Worldwide",
+        "client": "GRAFT Berlin",
+        "phase": "Competition",
+        "role": "Architect / Designer ",
+        "programme": "Exhibition",
+        "images": [
+            "https://rihanbucket.s3.amazonaws.com/hyundai/hyundai01.jpg",
+            "https://rihanbucket.s3.amazonaws.com/hyundai/hyundai03.jpg",
+            "https://rihanbucket.s3.amazonaws.com/hyundai/hyundai05.jpg"
+        ]
+    },
+    {
+        "id": 16,
+        "title": "PRODUCT INSTALLATION",
+        "desc": "The installation highlights the concept of mobile experience introduced by Apple's latest watch, emphasizing the true versatility of smart wearable devices like the new Watch. Users can experiment with various models and strap colors that align with their personal style and fashion tastes. An interactive and engaging experience is provided through a simple and intuitive technique, allowing users to interact with each other in the installation space.",
+        "year": 2014,
+        "location": "-",
+        "client": "-",
+        "phase": "Competition",
+        "role": "Architect / Designer ",
+        "programme": "Exhibition",
+        "images": [
+            "https://rihanbucket.s3.amazonaws.com/AppleWatch/cam01.jpg",
+            "https://rihanbucket.s3.amazonaws.com/AppleWatch/cam04.jpg",
+            "https://rihanbucket.s3.amazonaws.com/AppleWatch/cam05.jpg",
+            "https://rihanbucket.s3.amazonaws.com/AppleWatch/38a879_569e251350b840ed91edc1a2775648ef.jpg.webp",
+            "https://rihanbucket.s3.amazonaws.com/AppleWatch/interactive+diagram.jpg"
+        ]
+    },
+    {
+        "id": 17,
+        "title": "RANDOM FACETS",
+        "desc": "Random facets experiment introducing multiple functional objects. Each of them belongs to a different set of formal expression. It is an experimental spatial installation/ urban furniture, primarily made for public open spaces, but also as a particular spatial object. The design was achieved by parametric computer modeling and then translated into physical form, through digital fabrication methods.",
+        "year": 2013,
+        "location": "-",
+        "client": "-",
+        "phase": "Completed",
+        "role": "Architect / Designer ",
+        "programme": "Digital",
+        "images": [
+            "https://rihanbucket.s3.amazonaws.com/randomfacets/IMG_5651.JPG",
+            "https://rihanbucket.s3.amazonaws.com/randomfacets/form-finding02.jpg",
+            "https://rihanbucket.s3.amazonaws.com/randomfacets/13.jpg",
+            "https://rihanbucket.s3.amazonaws.com/randomfacets/12.jpg",
+            "https://rihanbucket.s3.amazonaws.com/randomfacets/IMG_5687.JPG",
+            "https://rihanbucket.s3.amazonaws.com/randomfacets/10.jpg"
+        ]
+    },
+    {
+        "id": 18,
+        "title": "SAMSUNG BOOTH @ CES 2016",
+        "desc": "At CES 2016 Samsung shows the IoT is now “in sync with real life.” To strengthen the key message our design focused on six curated lifestyle scenarios at the center of attention. In these framed islands, visitors can see and experience the direct benefits of truly connected devices. The products are no longer necessarily divided by their categories for presentation, but each scenario showed different products interacting with each other to illustrate specific benefits and to paint an overall image of what the Internet of Things is about and how we all can profit from it.",
+        "year": 2016,
+        "location": "Las Vegas, USA",
+        "client": "Cheil Germany - SAMSUNG Europe",
+        "phase": "Completed",
+        "role": "Architect / Designer ",
+        "programme": "Exhibition",
+        "images": [
+            "https://rihanbucket.s3.amazonaws.com/samsung/CES_125a.jpg",
+            "https://rihanbucket.s3.amazonaws.com/samsung/CES_1232.jpg",
+            "https://rihanbucket.s3.amazonaws.com/samsung/PAY+KNOX_KNOX+SIDE03.jpg",
+            "https://rihanbucket.s3.amazonaws.com/samsung/PAY+KNOX_AVENUE.jpg",
+            "https://rihanbucket.s3.amazonaws.com/samsung/DIAGRAM-01.jpg"
+        ]
+    },
+    {
+        "id": 19,
+        "title": "VR CHAIR",
+        "desc": "virtual reality chair is a specialized seating designed to enhance the immersive experience of virtual reality. This chair integrates various technologies like haptic feedback, motion tracking, and sensory inputs to provide a truly realistic and dynamic virtual experience. The chair can move in sync with the virtual environment, creating a sense of presence and interaction. The VR chair is an ideal solution for gaming, entertainment, and simulation, providing users with a new level of immersion and excitement.",
+        "year": 2015,
+        "location": "-",
+        "client": "Cheil Germany - SAMSUNG Europe",
+        "phase": "Concept",
+        "role": "Architect / Designer ",
+        "programme": "Exhibition",
+        "images": [
+            "https://rihanbucket.s3.amazonaws.com/VR+chair/VR_06.jpg",
+            "https://rihanbucket.s3.amazonaws.com/VR+chair/VR_09.jpg",
+            "https://rihanbucket.s3.amazonaws.com/VR+chair/VR_05.jpg",
+            "https://rihanbucket.s3.amazonaws.com/VR+chair/VR_11.jpg",
+            "https://rihanbucket.s3.amazonaws.com/VR+chair/VR_08.jpg"
+        ]
+    }
+]

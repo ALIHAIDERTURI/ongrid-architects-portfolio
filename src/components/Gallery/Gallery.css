@@ -1,0 +1,59 @@
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5%;
+    width: 98%;
+    margin: auto;
+}
+
+.projects-programme {
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 98%;
+}
+
+.programme-txt {
+    color: white;
+    font-size: 0.9rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    background-color: rgb(240, 240, 240);
+    padding: 8px;
+    border-radius: 5px;
+    color: black;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.programme-txt:hover {
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
+
+.programme-txt.active {
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .gallery-container {
+        width: 90%;
+    }
+    .projects-programme {
+        width: 90%;
+        height: 100px;
+        flex-wrap: wrap;
+        margin-bottom: 0px;
+        margin-left: 20px;
+    }
+
+    .programme-txt {
+        margin-bottom: 10px;
+    }
+}

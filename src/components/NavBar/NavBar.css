@@ -1,0 +1,71 @@
+.nav-bar {
+    height: 50px;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    margin: auto;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 99;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+.nav-bar-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    background-color: rgba(255, 255, 255, 0.268);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 5px;
+    padding: 7px;
+    transition: 0.1s ease-in;
+}
+
+.ai {
+    color: red;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.nav-bar-link:hover {
+    color: rgb(16, 16, 16);
+    background-color: rgb(204, 204, 204);
+}
+
+.nav-bar .navbar-logo {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.268);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 5px;
+}
+
+.nav-bar img {
+    height: 100%;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav-bar {
+        width: 90%;
+        padding: 0;
+    }
+
+    .nav-bar-link {
+        font-size: 0.85rem;
+    }
+
+    .navbar-logo {
+        display: none;
+    }
+}

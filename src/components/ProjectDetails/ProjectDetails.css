@@ -1,0 +1,80 @@
+.project-text-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 100px auto 50px;
+    width: 75%;
+}
+
+.project-name h3 {
+    height: 25%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 5rem;
+    font-family: "Six Caps", sans-serif;
+    font-weight: 200;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.project-desc {
+    height: 25%;
+
+    color: #9c9c9c;
+    font-size: 1.3rem;
+    font-weight: 200;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.project-facts-wrapper {
+    width: 85%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.project-facts-wrapper p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+}
+
+.project-fact {
+    margin-right: 25px;
+}
+
+.project-facts-wrapper .fact {
+    color: #5e5e5e;
+}
+
+.project-facts-wrapper .value {
+    margin-top: 5px;
+    color: #9c9c9c;
+}
+
+.project-img-wrapper img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .project-name h3 {
+        font-size: 3rem;
+    }
+    .project-text-wrapper {
+        width: 90%;
+    }
+    .project-facts-wrapper {
+        width: 90%;
+        flex-direction: column;
+    }
+    .project-fact {
+        margin-bottom: 10px;
+    }
+}
