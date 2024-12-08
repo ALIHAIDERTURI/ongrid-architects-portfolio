@@ -14,7 +14,7 @@ function About() {
 
             <section className="about-container">
                 <section className="about-photo">
-                    <img src="" alt="Architecture photo" />
+                    <img src="/images/mehdi_pic.jpg" alt="Architect Photo" />
                 </section>
 
                 <section className="about-txt">

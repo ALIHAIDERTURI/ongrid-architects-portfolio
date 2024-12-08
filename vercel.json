@@ -1,15 +1,20 @@
 {
-    "redirects": [
+  "redirects": [
       {
-        "source": "/old-path", 
-        "destination": "/new-path", 
-        "permanent": true
+          "source": "/old-path",
+          "destination": "/new-path",
+          "permanent": true
       },
       {
-        "source": "/old-page",
-        "destination": "/new-page",
-        "permanent": false 
+          "source": "/old-page",
+          "destination": "/new-page",
+          "permanent": false
       }
-    ]
-  }
-  
+  ],
+  "rewrites": [
+      {
+          "source": "/(.*)",
+          "destination": "/"
+      }
+  ]
+}
