@@ -14,7 +14,7 @@ function About() {
 
             <section className="about-container">
                 <section className="about-photo">
-                    <img src="/images/rihan-photo.webp" alt="building" />
+                    <img src="" alt="Architecture photo" />
                 </section>
 
                 <section className="about-txt">

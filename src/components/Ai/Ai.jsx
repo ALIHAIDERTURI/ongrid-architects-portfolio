@@ -19,7 +19,7 @@ function Ai() {
                 <h3 className="txt-cover-title">SKETCH2IMG Ai Model</h3>
                 <h3 className="txt-cover-desc">
                     Simple sketch as an input plus a text prompt to endless
-                    possibilities, using Stable Diffuison Ai + ComfyUi +
+                    possibilities, using Stable Diffusion Ai + ComfyUi +
                     ControlNet
                 </h3>
             </div>
