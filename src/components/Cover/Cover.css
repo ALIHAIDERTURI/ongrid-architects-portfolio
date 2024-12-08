@@ -4,6 +4,7 @@
     align-items: center;
     width: 100%;
     height: 100vh;
+    margin-top: 30px;
 }
 
 .cover {
@@ -16,8 +17,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin: auto; */
-    margin-top: 3%;
 }
 
 .cover h1 {
@@ -56,17 +55,15 @@
         height: 100%;
         display: none;
     } */
+ 
+  
 
-    .cover {
-        margin-top: 12%;
-    }
-
-    .cover-rihan-logo {
+    /* .cover-rihan-logo {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 50%;
-    }
+    } */
 
     .mouse-icon-row {
         bottom: 35px;
