@@ -1,24 +1,121 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "./ContactForm.css";
-
-// const FORM_ENDPOINT = 
-//     "https://public.herotofu.com/v1/01067880-a3db-11ed-a31e-753411848f80";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ContactForm = () => {
     const [submitted, setSubmitted] = useState(false);
-    
+    const form = useRef();
+
     const handleSubmit = (event) => {
         event.preventDefault(); // Prevent default form submission behavior
-        setTimeout(() => {
-            setSubmitted(true);
-        }, 100);
+    
+        // Show loading toast
+        toast.info("Sending your inquiry... Please wait.", { autoClose: false });
+    
+        // Get form values
+        const formData = new FormData(form.current);
+        const userName = formData.get("user_name");
+        const userEmail = formData.get("user_email");
+        const userMessage = formData.get("message");
+    
+        // EmailJS templates
+        const inquiryHtml = `
+            <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+                <h2 style="text-align: center; color: #2C3E50;">You Have a New Inquiry</h2>
+                <p><strong>From:</strong> ${userName}</p>
+                <p><strong>Email:</strong> ${userEmail}</p>
+                <p><strong>Message:</strong></p>
+                <blockquote style="border-left: 4px solid #3498DB; padding: 10px; color: #555;">
+                    ${userMessage}
+                </blockquote>
+                <div style="text-align: center; margin-top: 30px;">
+                    <img src="https://rihanbucket.s3.amazonaws.com/AI/ComfyUI_00079_.webp" alt="Robot" style="width: 200px; height: auto; border-radius: 10px;" />
+                </div>
+            </div>
+        `;
+    
+        const customerEmailBody = `
+            <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+                <h2 style="text-align: center; color: #2C3E50;">Thank You for Contacting Us!</h2>
+                <p>Dear ${userName},</p>
+                <p>Thank you for reaching out to us! We've received your inquiry and our team will respond as soon as possible.</p>
+                <p>If you have any urgent questions or additional details, feel free to reply to this email or contact us on WhatsApp at <a href="tel:+923455557904" style="color: #3498DB; text-decoration: none;">+92 345 555 7904</a>.</p>
+                <p>We’re excited to assist you and look forward to working together!</p>
+                <p>Best regards,</p>
+                <p><strong>OnGrid Architects</strong></p>
+                <p>
+                    Email: <a href="mailto:mehdi@ongridarchitects.com" style="color: #3498DB; text-decoration: none;">mehdi@ongridarchitects.com</a><br>
+                    Address: TopCity, Islamabad, Pakistan
+                </p>
+                <div style="text-align: center; margin-top: 30px;">
+                    <img src="https://rihanbucket.s3.amazonaws.com/AI/ComfyUI_00079_.webp" alt="Robot" style="width: 150px; height: auto; border-radius: 10px;" />
+                </div>
+            </div>
+        `;
+    
+        // EmailJS data
+        const teamEmailData = {
+            user_first_name: userName,
+            to_name: "OnGrid Architect Team",
+            to_email: "alihaideturiofficial@gmail.com",
+            message_html: inquiryHtml,
+        };
+    
+        const customerEmailData = {
+            cus_name: userName,
+            cus_email: userEmail,
+            email_body: customerEmailBody,
+            unique_id: Date.now(),
+        };
+    
+        // Send email to team
+        emailjs.send(
+            import.meta.env.VITE_YOUR_SERVICE_ID,
+            import.meta.env.VITE_YOUR_TEMPLATE_ID,
+            { ...teamEmailData },
+            import.meta.env.VITE_YOUR_PUBLIC_KEY
+        ).then(
+            (result) => {
+                console.log("Team email sent successfully:", result.text);
+                toast.dismiss(); // Dismiss loading toast
+                toast.success("Inquiry mail sent!");
+    
+                // Send acknowledgment to customer
+                emailjs.send(
+                    import.meta.env.VITE_YOUR_SERVICE_ID,
+                    import.meta.env.VITE_YOUR_CUSTOMER_TEMPLATE_ID,
+                    { ...customerEmailData },
+                    import.meta.env.VITE_YOUR_PUBLIC_KEY
+                ).then(
+                    (result) => {
+                        console.log("Customer email sent successfully:", result.text);
+                        toast.success("You will shortly receive an email!");
+                        setSubmitted(true);
+                    },
+                    (error) => {
+                        console.error("Error sending customer email:", error.text);
+                        toast.error("Submission failed. Please try again later.");
+                    }
+                ); 
+
+            },
+            (error) => {
+                console.error("Error sending team email:", error.text);
+                toast.dismiss(); // Dismiss loading toast
+                toast.error("Failed to send message. Please try again later.");
+            }
+        );
     };
+
+    
 
     if (submitted) {
         return (
             <div className="thankyou-msg">
                 <h2>Thank you!</h2>
-                <p>I'll be in touch soon.</p>
+                <p>We’ll be in touch soon.</p>
             </div>
         );
     }
@@ -26,24 +123,32 @@ const ContactForm = () => {
     return (
         <form
             className="contact-form"
-            // action={FORM_ENDPOINT}
+            ref={form}
             onSubmit={handleSubmit}
-            method="POST"
-            target="_blank"
+
         >
             <div>
                 <input
                     type="text"
                     placeholder="Your name"
-                    name="name"
+                    name="user_name" // Match EmailJS template
                     required
                 />
             </div>
             <div>
-                <input type="email" placeholder="Email" name="email" required />
+                <input
+                    type="email"
+                    placeholder="Email"
+                    name="user_email" // Match EmailJS template
+                    required
+                />
             </div>
             <div>
-                <textarea placeholder="Your message" name="message" required />
+                <textarea
+                    placeholder="Your message"
+                    name="message" // Match EmailJS template
+                    required
+                />
             </div>
             <div>
                 <button type="submit">Send a message</button>

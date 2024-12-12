@@ -32,7 +32,7 @@ useEffect(() => {
     <nav className={`nav-bar ${scrolled ? "scrolled" : ""}`}>
       <div className="navbar-logo">
         <img
-        //   src="/images/LOGO-2-B.png"
+          src="/images/Ongrid logo.png"
           alt="OnGird-logo"
           onClick={() => navigate("/")}
         />

@@ -9,12 +9,14 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Ai from "./components/Ai/Ai";
 import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
 import About from "./components/About/About";
+import { ToastContainer } from 'react-toastify';
 
 function App() {
     return (
         <>
             <BrowserRouter>
-                <ScrollToTop />
+            <ToastContainer position="top-center" reverseOrder={false} />
+            <ScrollToTop />
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/project/:id" element={<Project />} />
