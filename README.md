@@ -91,7 +91,7 @@ ongrid-architects-portfolio/
    npm run dev
    ```
 
-3. Navigate to the website in your web browser at [http://localhost:5173](http://localhost:5173).
+3. Navigate to the live website in your web browser at [https://ongrid-architects-portfolio.vercel.app](https://ongrid-architects-portfolio.vercel.app).
 
 ## License
 
