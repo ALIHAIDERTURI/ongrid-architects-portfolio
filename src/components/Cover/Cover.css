@@ -11,9 +11,10 @@
     width: 98%;
     height: 90%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover ;
+    object-fit: contain;
     filter: saturate(80%);
-    border-radius: 10px;
+    border-radius: 10px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +30,6 @@
     font-stretch: normal;
     text-transform: none;
     appearance: none;
-    /* color: rgb(16, 16, 16); */
     color: rgb(255, 255, 255);
 }
 

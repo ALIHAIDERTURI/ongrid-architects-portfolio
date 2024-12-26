@@ -32,9 +32,10 @@ useEffect(() => {
     <nav className={`nav-bar ${scrolled ? "scrolled" : ""}`}>
       <div className="navbar-logo">
         <img
-          src="/images/Ongrid logo.png"
+          src="https://res.cloudinary.com/ongridarchitects/image/upload/v1734115790/OnGrid_Architects_-_Logo_Final_y0ccae.svg"
           alt="OnGird-logo"
           onClick={() => navigate("/")}
+          tabIndex="0"
         />
       </div>
       <div className="hamburger" onClick={toggleMenu}>

@@ -1,17 +1,19 @@
 [
     {
         "coverImages": [
-            "https://rihanbucket.s3.amazonaws.com/bianco/092_CAVALLINO_V4_P.jpg",
-            "https://rihanbucket.s3.amazonaws.com/bianco/092_CAVALLINO_V2_P_low.jpg",
-            "https://rihanbucket.s3.amazonaws.com/bianco/092_CAVALLINO_V1_P_low.jpg",
-            "https://rihanbucket.s3.amazonaws.com/athora/ATHORA_MUNICH_V1.jpg",
-            "https://rihanbucket.s3.amazonaws.com/bianco/092_CAVALLINO_V3_P.jpg",
-            "https://rihanbucket.s3.amazonaws.com/bianco/092_CAVALLINO_V5_P.jpg",
-            "https://rihanbucket.s3.amazonaws.com/athora/ATHORA_MUNICH_V3.jpg",
-            "https://rihanbucket.s3.amazonaws.com/rkw/nigh4.jpg",
-            "https://rihanbucket.s3.amazonaws.com/kaphorn/kiel+tower+render2.jpg",
-            "https://rihanbucket.s3.amazonaws.com/floriade/Picture9.jpg",
-            "https://rihanbucket.s3.amazonaws.com/floriade/Picture4.jpg"
+            "https://res.cloudinary.com/ongridarchitects/image/upload/v1734099090/Landscape_View_4_bpz3ea.jpg",
+            "https://res.cloudinary.com/ongridarchitects/image/upload/v1734099079/Landscape_View_1_xo7e7q.jpg",
+            "https://res.cloudinary.com/ongridarchitects/image/upload/v1734099062/UPDATEDED_VIEW_x5v8qf.jpg",
+            "https://res.cloudinary.com/ongridarchitects/image/upload/v1734099058/APP_FINAL_VIEW_002_fhmhai.jpg",
+            "https://res.cloudinary.com/ongridarchitects/image/upload/v1734099050/VIEW-MH-01_k3l46c.jpg",
+            "https://res.cloudinary.com/ongridarchitects/image/upload/v1734099045/1502_9_ikst8m.jpg",
+            "https://res.cloudinary.com/ongridarchitects/image/upload/v1734099041/APP_FINAL_VIEW_003_zb9xk3.jpg",
+            "https://res.cloudinary.com/ongridarchitects/image/upload/v1734099040/WhatsApp_Image_2021-01-06_at_10.34.18_1_n2xcpb.jpg",
+            "https://res.cloudinary.com/ongridarchitects/image/upload/v1734099039/IMG-20210426-WA0065_juwd9w.jpg",
+            "https://res.cloudinary.com/ongridarchitects/image/upload/v1734099037/IMG-20191121-WA0012_gajpkm.jpg",
+            "https://res.cloudinary.com/ongridarchitects/image/upload/v1734099033/ALEX-PROJECT_01_ziqdcj.jpg",
+            "https://res.cloudinary.com/ongridarchitects/image/upload/v1734099032/PERSPECTIVE_01_qhx4mz.jpg",
+            "https://res.cloudinary.com/ongridarchitects/image/upload/v1734099036/VIEW_01_pipbxh.jpg"
         ]
     }
 ]

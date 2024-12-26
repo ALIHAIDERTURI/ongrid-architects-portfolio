@@ -31,7 +31,7 @@ const ContactForm = () => {
                     ${userMessage}
                 </blockquote>
                 <div style="text-align: center; margin-top: 30px;">
-                    <img src="https://rihanbucket.s3.amazonaws.com/AI/ComfyUI_00079_.webp" alt="Robot" style="width: 200px; height: auto; border-radius: 10px;" />
+                    <img src="https://res.cloudinary.com/ongridarchitects/image/upload/v1734115785/OnGrid_-_DP_Whatsapp-Insta-Facebook_u6hx9w.jpg" alt="OnGrid Architects" style="width: 200px; height: auto; border-radius: 10px;" />
                 </div>
             </div>
         `;
@@ -41,7 +41,7 @@ const ContactForm = () => {
                 <h2 style="text-align: center; color: #2C3E50;">Thank You for Contacting Us!</h2>
                 <p>Dear ${userName},</p>
                 <p>Thank you for reaching out to us! We've received your inquiry and our team will respond as soon as possible.</p>
-                <p>If you have any urgent questions or additional details, feel free to reply to this email or contact us on WhatsApp at <a href="tel:+923455557904" style="color: #3498DB; text-decoration: none;">+92 345 555 7904</a>.</p>
+                <p>If you have any urgent questions or additional details, feel free to reply to this email or contact us on WhatsApp at <a href="tel:+923085557904" style="color: #3498DB; text-decoration: none;">+92 308 555 7904</a>.</p>
                 <p>We’re excited to assist you and look forward to working together!</p>
                 <p>Best regards,</p>
                 <p><strong>OnGrid Architects</strong></p>
@@ -50,7 +50,7 @@ const ContactForm = () => {
                     Address: TopCity, Islamabad, Pakistan
                 </p>
                 <div style="text-align: center; margin-top: 30px;">
-                    <img src="https://rihanbucket.s3.amazonaws.com/AI/ComfyUI_00079_.webp" alt="Robot" style="width: 150px; height: auto; border-radius: 10px;" />
+                    <img src="https://res.cloudinary.com/ongridarchitects/image/upload/v1734115785/OnGrid_-_DP_Whatsapp-Insta-Facebook_u6hx9w.jpg" alt="OnGrid Architects" style="width: 150px; height: auto; border-radius: 10px;" />
                 </div>
             </div>
         `;
