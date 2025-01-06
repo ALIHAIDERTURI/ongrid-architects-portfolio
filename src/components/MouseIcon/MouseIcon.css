@@ -23,20 +23,19 @@
     margin-top: -2.5px;
     border-radius: 50%;
     background-color: white;
-    animation: name duration timing-function delay iteration-count direction
-        fill-mode play-state;
-    -webkit-animation: shake-vertical 2.5s
-        cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both;
-    animation: shake-vertical 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
-        infinite both;
+    animation: name duration timing-function delay iteration-count direction fill-mode play-state;
+    -webkit-animation: shake-vertical 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both;
+    animation: shake-vertical 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both;
 }
 
 @-webkit-keyframes shake-vertical {
+
     0%,
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
+
     10%,
     30%,
     50%,
@@ -44,16 +43,19 @@
         -webkit-transform: translateY(-3px);
         transform: translateY(-3px);
     }
+
     20%,
     40%,
     60% {
         -webkit-transform: translateY(3px);
         transform: translateY(3px);
     }
+
     80% {
         -webkit-transform: translateY(2.4px);
         transform: translateY(2.4px);
     }
+
     90% {
         -webkit-transform: translateY(-2.4px);
         transform: translateY(-2.4px);
@@ -61,11 +63,13 @@
 }
 
 @keyframes shake-vertical {
+
     0%,
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
+
     10%,
     30%,
     50%,
@@ -73,16 +77,19 @@
         -webkit-transform: translateY(-3px);
         transform: translateY(-3px);
     }
+
     20%,
     40%,
     60% {
         -webkit-transform: translateY(3px);
         transform: translateY(3px);
     }
+
     80% {
         -webkit-transform: translateY(2.4px);
         transform: translateY(2.4px);
     }
+
     90% {
         -webkit-transform: translateY(-2.4px);
         transform: translateY(-2.4px);

@@ -6,7 +6,8 @@ import Project from "./components/Project/Project";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
-import Ai from "./components/Ai/Ai";
+// import Ai from "./components/Ai/Ai";
+import OurTeam from "./components/Team/OurTeam";
 import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
 import About from "./components/About/About";
 import { ToastContainer } from 'react-toastify';
@@ -21,12 +22,12 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/project/:id" element={<Project />} />
                     <Route path="/contact" element={<Contact />} />
-                    <Route path="/ai" element={<Ai />} />
+                    <Route path="/team" element={<OurTeam />} />
                     <Route path="/projects" element={<ProjectsPage />} />
                     <Route path="/about" element={<About />} />
                 </Routes>
             </BrowserRouter>
-            <Footer />
+            {/* <Footer /> */}
         </>
     );
 }
