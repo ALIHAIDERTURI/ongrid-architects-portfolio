@@ -310,7 +310,7 @@ function Cover() {
               <div className="relative z-10 h-full flex flex-col justify-center px-16">
                 {/* Typewriter Effect */}
                 <TypewriterEffect slide={slide} />
-                <p className="text-white/80 hidden sm:flex text-xl max-w-2xl">{slide.description}</p>
+                <p className="text-white/80  text-sm md:text-xl max-w-2xl">{slide.description}</p>
               </div>
             </div>
           ))}
