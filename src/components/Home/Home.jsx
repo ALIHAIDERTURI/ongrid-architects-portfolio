@@ -8,7 +8,7 @@ const data = [
       title: "2024",
       content: (
         <div>
-          <p className="text-black text-xs md:text-sm font-normal mb-8">
+          <p className="text-black text-xs md:text-sm font-semibold mb-8">
             Built and launched Aceternity UI and Aceternity UI Pro from scratch
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -48,7 +48,7 @@ const data = [
       title: "Early 2023",
       content: (
         <div>
-          <p className="text-black text-xs md:text-sm font-normal mb-8">
+          <p className="text-black text-xs md:text-sm font-semibold mb-8">
             I usually run out of copy, but when I see content this big, I try to integrate lorem ipsum.
           </p>
           <p className="text-black text-xs md:text-sm font-normal mb-8">
@@ -91,7 +91,7 @@ const data = [
       title: "Changelog",
       content: (
         <div>
-          <p className="text-black text-xs md:text-sm font-normal mb-4">
+          <p className="text-black text-xs md:text-sm font-semibold mb-4">
             Deployed 5 new components on Aceternity today
           </p>
           <div className="mb-8">
@@ -118,7 +118,7 @@ const data = [
       title: "any",
       content: (
         <div>
-          <p className="text-black text-xs md:text-sm font-normal mb-4">
+          <p className="text-black text-xs md:text-sm font-semibold mb-4">
             Deployed 5 new components on Aceternity today
           </p>
           <div className="mb-8">
