@@ -23,22 +23,36 @@
 // export default Footer;
 
 import React from 'react';
+import { Instagram, Facebook, Youtube  } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <div className="w-[98%] mx-auto mt-3.5 mb-2 bg-white">
-      <div className="w-full mx-auto h-fit leading-10">
-        <p className="text-left text-xs text-black select-none font-[system-ui,-apple-system,BlinkMacSystemFont,Segoe_UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira_Sans,Droid_Sans,Helvetica_Neue,sans-serif]">
-          <span className="font-black">OnGrid Architects Portfolio</span> © 2024 
-          All rights reserved - Designed and Developed by{' '}
-          <a 
-            href="#" 
-            className="text-[#4A90E2] no-underline text-[0.8rem] relative transition-all duration-300 ease-in-out hover:after:w-full after:content-[''] after:absolute after:bottom-[-2px] after:left-0 after:h-0.5 after:w-0 after:bg-[#4A90E2] after:transition-[width] after:duration-300 after:ease-in-out"
-          >
-            @Ali Haider
+    <div className=" flex justify-center align-center h-[100px] mx-auto mt-3.5  bg-gray-200">
+      
+        <div className="w-[98%] flex items-center  font-[system-ui,-apple-system,BlinkMacSystemFont,Segoe_UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira_Sans,Droid_Sans,Helvetica_Neue,sans-serif]">
+          <div className="w-1/2">
+          <img
+          src="https://res.cloudinary.com/ongridarchitects/image/upload/v1734115790/OnGrid_Architects_-_Logo_Final_y0ccae.svg"
+          alt="OnGird-logo"
+          onClick={() => navigate("/")}
+          // tabIndex="0"
+          className="w-[50px] h-auto cursor-pointer"
+        />
+          </div>
+         <div className=" flex w-1/2 justify-end  gap-1">
+         <a href="" className=" hover:bg-gray-300 p-2 rounded-full">
+          <Instagram />
           </a>
-        </p>
-      </div>
+          <a href="" className="hover:bg-gray-300 p-2 rounded-full">
+          <Facebook />
+          </a>
+          <a href="" className="hover:bg-gray-300 p-2 rounded-full">
+          <Youtube  />
+          </a>
+         </div>
+          
+        </div>
+      
     </div>
   );
 };

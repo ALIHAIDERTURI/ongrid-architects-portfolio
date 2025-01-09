@@ -289,7 +289,7 @@ function Cover() {
     <>
       <NavBar />
       <main className="flex justify-center w-full h-screen">
-        <div className="w-full h-[91%] relative flex justify-start items-center overflow-hidden">
+        <div className="w-full h-[100%] relative flex justify-start items-center overflow-hidden">
           {slides.map((slide, index) => (
             <div
               key={index}
