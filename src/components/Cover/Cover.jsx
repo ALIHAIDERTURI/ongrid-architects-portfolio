@@ -84,7 +84,8 @@ function Cover() {
               {/* Background Image */}
               <div
                 className="absolute w-full h-full bg-cover bg-center"
-                style={{ backgroundImage: `url(${slide.image})` }}
+                style={{ backgroundImage: `url(${slide.image})`
+               }}
               />
               
               {/* Dark Overlay */}

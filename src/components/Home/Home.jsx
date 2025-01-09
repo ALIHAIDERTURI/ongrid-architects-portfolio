@@ -1,7 +1,7 @@
 import React from "react";
 import Cover from "../Cover/Cover";
 import TimeLine from "../Timeline/timeLine";
-import { ImGoogle } from "react-icons/im";
+import { BadgeCheck } from 'lucide-react';
 
 const data = [
     {
@@ -88,7 +88,7 @@ const data = [
       ),
     },
     {
-      title: "Changelog",
+      title: "2021 - 2022",
       content: (
         <div>
           <p className="text-black text-xs md:text-sm font-semibold mb-4">
@@ -96,51 +96,51 @@ const data = [
           </p>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-neutral-800 text-xs md:text-sm">
-              ✅ Card grid component
+            <BadgeCheck className="text-green-600" /> Card grid component
             </div>
             <div className="flex gap-2 items-center text-neutral-800 text-xs md:text-sm">
-              ✅ Startup template Aceternity
+            <BadgeCheck className="text-green-600" /> Startup template Aceternity
             </div>
             <div className="flex gap-2 items-center text-neutral-800text-xs md:text-sm">
-              ✅ Random file upload lol
+            <BadgeCheck className="text-green-600"/> Random file upload lol
             </div>
             <div className="flex gap-2 items-center text-neutral-800 text-xs md:text-sm">
-              ✅ Himesh Reshammiya Music CD
+            <BadgeCheck className="text-green-600" /> Himesh Reshammiya Music CD
             </div>
             <div className="flex gap-2 items-center text-neutral-800 text-xs md:text-sm">
-              ✅ Salman Bhai Being Human
+            <BadgeCheck className="text-green-600" /> Salman Bhai Being Human
             </div>
           </div>
         </div>
       ),
     },
-    {
-      title: "any",
-      content: (
-        <div>
-          <p className="text-black text-xs md:text-sm font-semibold mb-4">
-            Deployed 5 new components on Aceternity today
-          </p>
-          <div className="mb-8">
-            <div className="flex gap-2 items-center text-neutral-800 text-xs md:text-sm">
-              ✅ Card grid component
-            </div>
-            <div className="flex gap-2 items-center text-neutral-800 text-xs md:text-sm">
-              ✅ Startup template Aceternity
-            </div>
-            <div className="flex gap-2 items-center text-neutral-800text-xs md:text-sm">
-              ✅ Random file upload lol
-            </div>
-            <div className="flex gap-2 items-center text-neutral-800 text-xs md:text-sm">
-              ✅ Himesh Reshammiya Music CD
-            </div>
-            <div className="flex gap-2 items-center text-neutral-800 text-xs md:text-sm">
-              ✅ Salman Bhai Being Human
-            </div>
-          </div>
-        </div>
-      ),
-    },
+    // {
+    //   title: "Late 2020",
+    //   content: (
+    //     <div>
+    //       <p className="text-black text-xs md:text-sm font-semibold mb-4">
+    //         Deployed 5 new components on Aceternity today
+    //       </p>
+    //       <div className="mb-8">
+    //         <div className="flex gap-2 items-center text-neutral-800 text-xs md:text-sm">
+    //         <BadgeCheck className="text-green-600" /> Card grid component
+    //         </div>
+    //         <div className="flex gap-2 items-center text-neutral-800 text-xs md:text-sm">
+    //         <BadgeCheck className="text-green-600" /> Startup template Aceternity
+    //         </div>
+    //         <div className="flex gap-2 items-center text-neutral-800text-xs md:text-sm">
+    //         <BadgeCheck className="text-green-600"/> Random file upload lol
+    //         </div>
+    //         <div className="flex gap-2 items-center text-neutral-800 text-xs md:text-sm">
+    //         <BadgeCheck className="text-green-600" /> Himesh Reshammiya Music CD
+    //         </div>
+    //         <div className="flex gap-2 items-center text-neutral-800 text-xs md:text-sm">
+    //         <BadgeCheck className="text-green-600" /> Salman Bhai Being Human
+    //         </div>
+    //       </div>
+    //     </div>
+    //   ),
+    // },
   ];
 
 
