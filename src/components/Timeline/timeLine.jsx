@@ -16,7 +16,7 @@ const Timeline = ({ data }) => {
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
-    offset: ["start 10%", "end 50%"],
+    offset: ["start 10%", "end 100%"],
   });
 
   const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);
@@ -27,12 +27,12 @@ const Timeline = ({ data }) => {
       className="w-full bg-white font-sans md:px-10"
       ref={containerRef}
     >
-      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
+      <div className="max-w-7xl mx-auto py-5 mt-5 px-4 md:px-8 lg:px-10">
+        {/* <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
           Changelog from my journey
-        </h2>
-        <p className="text-dark text-sm md:text-base max-w-sm">
-          I&apos;ve been working on Aceternity for the past 2 years. Here&apos;s
+        </h2> */}
+        <p className="text-[3rem] md:text-[4rem] font-[100] text-black font-['Six_Caps'] uppercase not-italic normal-normal leading-[1] ">
+          I&apos;ve been working as an Architect for the past 10 years. Here&apos;s
           a timeline of my journey.
         </p>
       </div>
@@ -70,7 +70,7 @@ const Timeline = ({ data }) => {
               height: heightTransform,
               opacity: opacityTransform,
             }}
-            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-purple-500 via-blue-500 to-transparent from-[0%] via-[10%] rounded-full"
+            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-purple-500 via-blue-500 to-transparent from-[0%] via-[20%] rounded-full"
           />
         </div>
       </div>
