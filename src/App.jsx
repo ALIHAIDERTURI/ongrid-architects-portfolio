@@ -13,7 +13,7 @@ import { ToastContainer } from 'react-toastify';
 
 function App() {
     return (
-        <>
+    <div className="">
             <BrowserRouter>
             <ToastContainer position="top-center" reverseOrder={false} />
             <ScrollToTop />
@@ -27,7 +27,7 @@ function App() {
                 </Routes>
             </BrowserRouter>
             <Footer />
-        </>
+        </div>
     );
 }
 
