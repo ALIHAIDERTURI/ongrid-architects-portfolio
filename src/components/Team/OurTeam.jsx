@@ -7,6 +7,7 @@ const OurTeam = () => {
   return (
     <>
       <NavBar />
+      <div className="h-screen">
       <div className="w-screen flex justify-center items-center">
         <h2 className="font-['Six_Caps'] text-6xl md:text-[4rem] font-thin uppercase text-black leading-none my-[50px]">
           Our Team
@@ -23,6 +24,7 @@ const OurTeam = () => {
           onMouseLeave={() => setHover(false)}
         />
       </section>
+      </div>
     </>
   );
 };
