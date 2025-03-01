@@ -77,22 +77,22 @@ const NavBar = () => {
           Projects
         </Link>
         <Link 
-          className="text-red-600 no-underline text-base font-black cursor-pointer font-system 
-            rounded-[5px] p-[7px] transition-[0.1s] ease-in hover:text-[#101010] hover:bg-[#cccccc]
-            max-[768px]:text-[0.85rem]"
-          to="/team" 
-          onClick={toggleMenu}
-        >
-          Team
-        </Link>
-        <Link 
           className="text-black no-underline text-[0.9rem] font-semibold cursor-pointer font-system 
             rounded-[5px] p-[7px] transition-[0.1s] ease-in hover:text-[#101010] hover:bg-[#cccccc]
             max-[768px]:text-[0.85rem]"
           to="/about" 
           onClick={toggleMenu}
         >
-          About
+          Services
+        </Link>
+        <Link 
+          className="text-red-600 no-underline text-base font-black cursor-pointer font-system 
+            rounded-[5px] p-[7px] transition-[0.1s] ease-in hover:text-[#101010] hover:bg-[#cccccc]
+            max-[768px]:text-[0.85rem]"
+          to="/team" 
+          onClick={toggleMenu}
+        >
+          Who We Are 
         </Link>
         <Link 
           className="text-black no-underline text-[0.9rem] font-semibold cursor-pointer font-system 

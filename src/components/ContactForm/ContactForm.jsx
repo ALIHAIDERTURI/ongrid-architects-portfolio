@@ -273,7 +273,7 @@ const ContactForm = () => {
 
     return (
         <form
-            className="w-[90%]"
+            className="w-[100%]"
             ref={form}
             onSubmit={handleSubmit}
         >
@@ -283,7 +283,7 @@ const ContactForm = () => {
                     placeholder="Your name"
                     name="user_name"
                     required
-                    className="block mx-auto w-full md:w-[75%] h-[50px] md:h-[60px] border-none rounded-[10px] mt-[10px] mb-[15px] pl-[10px] text-base bg-[rgb(217,217,217)]"
+                    className="block mx-auto  w-full  h-[50px] md:h-[60px] border-none rounded-[10px] mt-[10px] mb-[15px] pl-[10px] text-base bg-[rgb(217,217,217)]"
                 />
             </div>
             <div>
@@ -292,7 +292,7 @@ const ContactForm = () => {
                     placeholder="Email"
                     name="user_email"
                     required
-                    className="block mx-auto w-full md:w-[75%] h-[50px] md:h-[60px] border-none rounded-[10px] mt-[10px] mb-[15px] pl-[10px] text-base bg-[rgb(217,217,217)]"
+                    className="block mx-auto w-full h-[50px] md:h-[60px] border-none rounded-[10px] mt-[10px] mb-[15px] pl-[10px] text-base bg-[rgb(217,217,217)]"
                 />
             </div>
             <div>
@@ -300,13 +300,13 @@ const ContactForm = () => {
                     placeholder="Your message"
                     name="message"
                     required
-                    className="block mx-auto w-full md:w-[75%] h-[130px] border-none rounded-[10px] mt-[10px] mb-[15px] pl-[10px] pt-[10px] text-base bg-[rgb(217,217,217)]"
+                    className="block mx-auto w-full  h-[130px] border-none rounded-[10px] mt-[10px] mb-[15px] pl-[10px] pt-[10px] text-base bg-[rgb(217,217,217)]"
                 />
             </div>
             <div>
                 <button 
                     type="submit"
-                    className="block mx-auto w-full md:w-[75%] h-[50px] md:h-[60px] border-none rounded-[10px] mt-[10px] mb-[15px] text-base bg-[rgb(16,16,16)] text-white cursor-pointer hover:bg-[rgb(102,102,102)] hover:text-black transition-colors"
+                    className="block mx-auto w-full  h-[50px] md:h-[60px] border-none rounded-[10px] mt-[10px] mb-[15px] text-base bg-[rgb(16,16,16)] text-white cursor-pointer hover:bg-[rgb(102,102,102)] hover:text-black transition-colors"
                 >
                     Send a message
                 </button>

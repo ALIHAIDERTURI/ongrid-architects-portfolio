@@ -42,7 +42,7 @@ function Project() {
             key={index}
             src={imageUrl}
             alt={`Project ${index + 1}`}
-            className="block mx-auto w-[75vw] h-[90vh] md:w-[75vw] rounded-[10px] mb-5"
+            className="block mx-auto w-[90vw] md:w-[75vw] rounded-[10px] mb-5"
           />
         );
       })}

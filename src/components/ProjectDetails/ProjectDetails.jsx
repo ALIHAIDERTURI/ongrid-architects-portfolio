@@ -52,7 +52,7 @@ import React from "react";
 function ProjectDetails({ projectData }) {
     return (
         <section>
-            <div className="flex flex-col justify-between items-start mx-auto my-[100px] mb-[50px] w-[90%] md:w-[75%]">
+            <div className="flex flex-col justify-between items-start mx-auto my-[50px] md:my-[100px] mb-[50px] w-[90%] md:w-[75%]">
                 <div className="w-full">
                     <h3 className="w-full text-black text-8xl font-extralight leading-none uppercase mb-[30px] font-['Six_Caps'] text-[3rem] md:text-[5rem]">
                         {projectData.title}
@@ -60,7 +60,7 @@ function ProjectDetails({ projectData }) {
                 </div>
 
                 <div className="mb-[30px]">
-                    <p className="text-[#9c9c9c] text-xl font-extralight font-[system-ui] text-justify">
+                    <p className="text-[#9c9c9c] text-l md:text-xl font-extralight font-[system-ui] text-justify">
                         {projectData.desc}
                     </p>
                 </div>
