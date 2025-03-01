@@ -1,23 +1,23 @@
 import NavBar from "../NavBar/NavBar";
 import { useState } from "react";
 
-const OurTeam = () => {
+const WhoWeAre = () => {
   const [hover, setHover] = useState(false);
 
   return (
     <>
       <NavBar />
-      <div className="h-fit mb-[50px] ">
-        <section className="flex flex-col justify-between items-center w-[98%] md:w-[98%] mx-auto md:my-[50px] my-[50px] mb-8">
+      <div className="h-fit mb-[50px] px-2 md:px-4 ">
+        <section className="flex flex-col justify-between items-center w-full mx-auto md:my-[50px] my-[50px] mb-8">
           {/* <h2 className="font-['Six_Caps'] text-6xl md:text-[4rem] font-thin uppercase text-black leading-none mb-0">
           About me
         </h2> */}
         </section>
 
-        <section className="w-[98%] md:w-[98%] mx-auto flex gap-6 flex-col md:flex-row justify-center items-start">
-          <section className="w-full md:w-[35%]">
+        <section className="w-full mx-auto flex gap-6 flex-col md:flex-row justify-center items-start">
+          <section className="w-full md:w-[35%] flex justify-center items-center">
             <img
-              src="/images/teampic2.jpg"
+              src="/images/mehdi_pic.jpg"
               alt="Architect Photo"
               className="w-[300px] h-[300px] object-fit rounded-full"
             />
@@ -25,7 +25,7 @@ const OurTeam = () => {
           </section>
 
           <section className="w-full text-justify">
-            <h1 className="font-[system-ui,-apple-system,BlinkMacSystemFont,Segoe_UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira_Sans,Droid_Sans,Helvetica_Neue,sans-serif] md:text-[2rem] font-semi-bold text-black mb-5 leading-none">
+            <h1 className="font-[system-ui,-apple-system,BlinkMacSystemFont,Segoe_UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira_Sans,Droid_Sans,Helvetica_Neue,sans-serif] md:text-[2rem] font-semi-bold text-black mb-5 leading-none text-center md:text-left">
               Mehdi Hussain <br /><span className="font-thin md:text-[24px]  ">Founder - Principal Architect</span>{" "}
             </h1>
             <p className="mb-5 text-xl font-extralight text-black font-[system-ui,-apple-system,BlinkMacSystemFont,Segoe_UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira_Sans,Droid_Sans,Helvetica_Neue,sans-serif]">
@@ -53,4 +53,4 @@ const OurTeam = () => {
   );
 };
 
-export default OurTeam;
+export default WhoWeAre;

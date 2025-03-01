@@ -6,14 +6,14 @@ import Project from "./components/Project/Project";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
-import OurTeam from "./components/Team/OurTeam";
+import WhoWeAre from "./components/WhoWeAre/WhoWeAre";
 import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
-import About from "./components/About/About";
+import Services from "./components/Services/Services";
 import { ToastContainer } from 'react-toastify';
 
 function App() {
     return (
-    <div className="">
+    <div className=" ">
             <BrowserRouter>
             <ToastContainer position="top-center" reverseOrder={false} />
             <ScrollToTop />
@@ -21,9 +21,9 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/project/:id" element={<Project />} />
                     <Route path="/contact" element={<Contact />} />
-                    <Route path="/team" element={<OurTeam />} />
+                    <Route path="/whoweare" element={<WhoWeAre />} />
                     <Route path="/projects" element={<ProjectsPage />} />
-                    <Route path="/about" element={<About />} />
+                    <Route path="/services" element={<Services />} />
                 </Routes>
             </BrowserRouter>
             <Footer />
