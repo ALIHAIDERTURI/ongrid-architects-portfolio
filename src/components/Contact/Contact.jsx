@@ -192,10 +192,10 @@ function Contact() {
               </div>
             </div>
           </div>
-          <div className="md:w-[50%] w-full md:h-full h-auto mt-5 md:mt-0 py-5 md:py-0 rounded-[10px] flex justify-center items-center h-[350px] md:h-[400px] ">
+          <div className="md:w-[50%] w-full md:h-full h-auto mt-5 md:mt-0 py-5 md:py-0 rounded-[10px] flex justify-center items-center h-[350px] ">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9850.436569243466!2d72.83149033597903!3d33.582642707114566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df99750c939f77%3A0x7a2737279b09fce3!2sMumtaz%20City%20Islamabad%2C%20Pakistan!5e1!3m2!1sen!2sus!4v1740762196555!5m2!1sen!2sus"
-              className="w-full h-full rounded-[10px]"
+              className="w-full h-[350px] rounded-[10px]"
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"

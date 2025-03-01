@@ -1,27 +1,71 @@
 import NavBar from "../NavBar/NavBar";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
+// Skeleton loader for the profile image and content
+const ProfileSkeleton = () => (
+  <div className="w-full animate-pulse">
+    {/* Profile image skeleton */}
+    <section className="w-full md:w-[35%] flex justify-center items-center mx-auto mb-8">
+      <div className="w-[300px] h-[300px] bg-gray-300 rounded-full" />
+    </section>
+
+    {/* Content skeleton */}
+    <section className="w-full">
+      {/* Name and title skeleton */}
+      <div className="flex flex-col items-center md:items-start mb-6">
+        <div className="h-8 bg-gray-400 rounded-lg w-64 mb-3" />
+        <div className="h-5 bg-gray-400 rounded-lg w-48" />
+      </div>
+
+      {/* Paragraphs skeleton */}
+      <div className="space-y-6">
+        {[...Array(5)].map((_, index) => (
+          <div key={index} className="space-y-3">
+            <div className="h-4 bg-gray-400 rounded w-full" />
+            <div className="h-4 bg-gray-400 rounded w-full" />
+            <div className="h-4 bg-gray-400 rounded w-5/6" />
+            <div className="h-4 bg-gray-400 rounded w-4/6" />
+          </div>
+        ))}
+      </div>
+    </section>
+  </div>
+);
 
 const WhoWeAre = () => {
-  const [hover, setHover] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
+  
+  // Load profile image
+  useEffect(() => {
+    const profileImg = new Image();
+    profileImg.src = "/images/mehdi_pic.jpg";
+    
+    profileImg.onload = () => {
+      setImageLoaded(true);
+    };
+  }, []);
 
   return (
     <>
       <NavBar />
-      <div className="h-fit mb-[50px] px-2 md:px-4 ">
+      <div className="h-fit mb-[50px] px-2 md:px-4">
         <section className="flex flex-col justify-between items-center w-full mx-auto md:my-[50px] my-[50px] mb-8">
-          {/* <h2 className="font-['Six_Caps'] text-6xl md:text-[4rem] font-thin uppercase text-black leading-none mb-0">
-          About me
-        </h2> */}
         </section>
 
         <section className="w-full mx-auto flex gap-6 flex-col md:flex-row justify-center items-start">
           <section className="w-full md:w-[35%] flex justify-center items-center">
-            <img
-              src="/images/mehdi_pic.jpg"
-              alt="Architect Photo"
-              className="w-[300px] h-[300px] object-fit rounded-full"
-            />
-            {/* <h1 className="font-[system-ui,-apple-system,BlinkMacSystemFont,Segoe_UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira_Sans,Droid_Sans,Helvetica_Neue,sans-serif] md:text-[1rem] font-semi-bold text-black text-center">Mehdi Hussain <span className="font-thin ">(Founder)</span> </h1> */}
+            <div className="relative w-[300px] h-[300px]">
+              {/* Image skeleton loader */}
+              {!imageLoaded && (
+                <div className="absolute inset-0 w-[300px] h-[300px] bg-gray-300 rounded-full animate-pulse" />
+              )}
+              <img
+                src="/images/mehdi_pic.jpg"
+                alt="Architect Photo"
+                className={`w-[300px] h-[300px] object-fit rounded-full transition-opacity duration-300 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
+                onLoad={() => setImageLoaded(true)}
+              />
+            </div>
           </section>
 
           <section className="w-full text-justify">
@@ -44,7 +88,7 @@ const WhoWeAre = () => {
             Beyond his architectural practice, Mehdi is an advocate for continuous learning and professional development in the field. He actively participates in industry events, workshops, and seminars, staying abreast of emerging trends and technologies. This commitment to growth not only enriches his practice but also inspires his team to push boundaries and explore innovative design possibilities.
             </p>
             <p className="mb-5 text-xl font-extralight text-black font-[system-ui,-apple-system,BlinkMacSystemFont,Segoe_UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira_Sans,Droid_Sans,Helvetica_Neue,sans-serif]">
-            Mehdi Hussain’s dedication to creating exceptional spaces is evident in every project he undertakes. His holistic design philosophy integrates functionality, sustainability, and beauty, ensuring that every environment is not just a place to live or work, but a space that inspires and uplifts. With a passion for architecture that is both profound and infectious, Mehdi is redefining the architectural landscape, one project at a time.
+            Mehdi Hussain's dedication to creating exceptional spaces is evident in every project he undertakes. His holistic design philosophy integrates functionality, sustainability, and beauty, ensuring that every environment is not just a place to live or work, but a space that inspires and uplifts. With a passion for architecture that is both profound and infectious, Mehdi is redefining the architectural landscape, one project at a time.
             </p>
           </section>
         </section>

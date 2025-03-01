@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Residentail Design",
+    "description": " Creating beautiful and functional residential spaces that reflect your unique lifestyle and personality, ensuring that your home is a true reflection of you.",
+    "image": "https://res.cloudinary.com/ongridarchitects/image/upload/v1734099062/UPDATEDED_VIEW_x5v8qf.jpg"
+  },
+  {
+    "title": "Interior Design",
+    "description": "Interior design services that transform your space into a reflection of your personal style and taste, creating a harmonious and inviting environment hi there is this a dummy text.",
+    "image": "https://res.cloudinary.com/ongridarchitects/image/upload/v1734099039/IMG-20210426-WA0065_juwd9w.jpg"
+  },
+  {
+    "title": "Commercial Design",
+    "description": "Designing dynamic and engaging commercial spaces that enhance your brand identity and create memorable experiences for your customer hih there is some extra text.",
+    "image": "https://res.cloudinary.com/ongridarchitects/image/upload/v1734099033/ALEX-PROJECT_01_ziqdcj.jpg"
+  },
+  {
+    "title": "Project Management",
+    "description": " Providing comprehensive project management services to ensure that your project is delivered on time, within budget, and to the highest quality standards.",
+    "image": "https://res.cloudinary.com/ongridarchitects/image/upload/v1740757929/managmenet_service_zl2luv.jpg"
+  }
+]
